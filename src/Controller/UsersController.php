@@ -750,15 +750,11 @@ echo json_encode($data);exit;
     
     public function dashboard() {
         
-       /* $this->viewBuilder()->layout('default');
+        $this->viewBuilder()->layout('default');
         $title="Dashboard";
         $this->loadModel('Users');
-        $this->loadModel('ServiceViews');
-        $this->loadModel('Reviews');
-        $this->loadModel('Services');
-        //$this->loadModel('ServiceProviderTags');
-        $this->loadModel('Tags');
-        $this->loadModel('Favourites');
+      
+        
         $uid = $this->request->session()->read('Auth.User.id');
         $user = $this->Users->get($this->Auth->user('id'));
          $conn = ConnectionManager::get('default');  
@@ -790,56 +786,11 @@ echo json_encode($data);exit;
                 $this->request->data['pimg'] = $user->pimg;
             }
             
-             $res = $this->ServiceViews->find()->where(['user_id' => $uid])->contain(['Services' => ['Users']])->limit(2)->toArray();
-             
-             foreach($res as $dt){
-                 //pr($dt);
-             $rvratings = $conn->execute("SELECT avg(rating) as avgr FROM `reviews` WHERE  service_id= '".$dt['service']['id']."' and is_active=1 ")->fetchAll('assoc');
-             
-             $favourite = $this->Favourites->find()->where(['service_id' => $dt['service']['id'],'user_id' => $uid])->first();
-             
-              $resutls[] = array('rating' => $rvratings, 'favourite'=> $favourite, 'details' => $dt);
-             }
-             
-             //pr($resutls);
-                
-          $reviewegave = $this->Reviews->find()->contain(['ReviewImages','Companies'])->where(['Reviews.user_id'=>$uid,'Reviews.is_active'=>1])->order('Reviews.id')->limit(5)->toArray(); 
           
           
           $user_info = $this->Users->find()->where(['id' => $uid,'utype'=>1])->first();
-        //pr($user_info);
-          if($user_info->preference)
-          {
-        $preference=  explode(',', $user_info->preference);
-        
-        foreach($preference as $dt){
-                            
-         $suggestedService = $conn->execute("SELECT s.id FROM `service_provider_tags` as spt inner join `services` as s on s.id=spt.service_id WHERE  spt.tag_id=$dt limit 4 ")->fetchAll('assoc');   
-            
-        }
-        //pr($suggestedService);
-       foreach($suggestedService as $dt){
-           
-       $ssrating = $conn->execute("SELECT avg(rating) as avgr FROM `reviews` WHERE  service_id= '".$dt['id']."' and is_active=1 ")->fetchAll('assoc');  
-       $details = $this->Services->find()->where(['Services.id'=>$dt['id']])->contain(['Users'])->toArray();
-       
-       $favourite = $this->Favourites->find()->where(['service_id' => $dt['id'],'user_id' => $uid])->first();
-       
-       $suggestedServiceDetails[] = array('rating' => $ssrating, 'favourite'=> $favourite, 'details' => $details);
-      
-       
-       
-       }
-   }
-//   else
-//   {
-//    $suggestedServiceDetails[] = array('rating' => array(), 'favourite'=> array(), 'details' => array());
-//   }
-      //pr($suggestedServiceDetails);
           
-          
-        $this->set(compact('user','title', 'resutls','reviewegave','suggestedServiceDetails'));
-        $this->set('_serialize', ['user', 'results']);   
+        $this->set(compact('title', 'user_info'));
            
         
         }else{
@@ -847,7 +798,7 @@ echo json_encode($data);exit;
             $this->Flash->error('Please login to access dashboard.');
             return $this->redirect('/');
             
-        }*/
+        }
         
         
     }
@@ -1292,16 +1243,8 @@ public function servicedashboard() {
 
             if ($flag) {
 
-                $this->request->data['modified'] = gmdate("Y-m-d h:i:s");
-                $this->request->data['preference']= implode(',',$this->request->data['preference']);
-                $this->request->data['interest']= implode(',',$this->request->data['interest']);
+                $this->request->data['modified'] = gmdate("Y-m-d h:i:s");              
 
-//                if ($this->request->data['password'] == "") {
-//                    $this->request->data['password'] = base64_decode($user->ptxt);
-//                    $this->request->data['ptxt'] = $user->ptxt;
-//                } else {
-//                    $this->request->data['ptxt'] = base64_encode($this->request->data['password']);
-//                }
 
                 $user = $this->Users->patchEntity($user, $this->request->data);
                 if ($this->Users->save($user)) {
@@ -1319,12 +1262,8 @@ public function servicedashboard() {
             }
         }
         
-        $this->loadModel('Tags');
-        $tags = $this->Tags->find()->where(['Tags.status' => 1])->toArray();
-        $this->loadModel('Interests'); 
-        $servicetypes = $this->Interests->find()->where(['Interests.status' => 1])->toArray();
-
-        $this->set(compact('user','tags','servicetypes'));
+       
+        $this->set(compact('user'));
         $this->set('_serialize', ['user']);
     }
     
@@ -1353,10 +1292,6 @@ public function servicedashboard() {
               $this->Flash->error(__('Password and confirm password not matched.'));    
               }
               
-          
-          
-          
-          
           //return $this->redirect(['action' => 'index']);
             }
             $this->set(compact('user'));
@@ -1366,7 +1301,7 @@ public function servicedashboard() {
     
     
            
-            public function searchlist() {
+      public function searchlist() {
       $this->viewBuilder()->layout('default');
       $this->loadModel('Services');
       //$this->loadModel('Favourites');

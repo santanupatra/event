@@ -1,101 +1,77 @@
-<div class="clearfix"></div>
-<?php echo $this->element('profile_head');?>
+<section class="user-dashboard">
+    <div class="container">
+      <div class="row">
+       <?php echo $this->element('side_menu');?>
+        <div class="col-lg-9 col-md-8">
+          <div class="edit-pro p-3 p-lg-4">
+            <h5 class="common-title mb-3 pb-2">Edit Profile</h5>
+            <div class="row">
+              <div class="col-lg-10">
+               <form action="<?php echo $this->Url->build(["controller" => "Users","action" => "editprofile"]);?>" method="post">
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">Full Name:</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" name="full_name" value="<?php echo $user->full_name;?>">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">Email Address:</label>
+                    <div class="col-sm-8">
+                      <input type="email" class="form-control" name="email" value="<?php echo $user->email;?>" readonly>                  
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">Phone:</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" name="phone" value="<?php echo $user->phone;?>">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">Address:</label>
+                    <div class="col-sm-8">
+                      <input class="form-control" id="autocomplete" name="address" type="text" onFocus=geolocate() value="<?php echo $user->address ?>"/>
+                    </div>
+                  </div>
 
-<div class="clearfix"></div>
+                  <input  type="hidden" id="lat" name="latitude" value="<?php echo $user->latitude ?>"/>
+                  <input  type="hidden" id="long" name="longitude" value="<?php echo $user->longitude ?>"/>
+                  
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">Town/City:</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" name="city" id="city" value="<?php echo $user->city ?>">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">Country:</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" name="country" id="country" value="<?php echo $user->country ?>">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-4 col-form-label">Post Code:</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="postcode" name="postcode" value="<?php echo $user->postcode ?>">
+                    </div>
+                  </div>
 
-<section class="edit-profil-detaildiv">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				
-                          <?php echo $this->element('side_menu');?>  
-                            
-			</div>
+                  
+                  <div class="row">
+                    <div class="col-sm-8 ml-auto">
+                      <button class="btn btn-primary" type="submit">Save Changes</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
 
-			<div class="col-md-8">
-				<div class="edit-profil-rightdiv">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="user-div">
-								<h5 class="h5">Edit Profile</h5>
-							</div>
-						</div>
-					</div>					
-					<div class="edit-profil-formdiv">
-						<form action="<?php echo $this->Url->build(["controller" => "Users","action" => "editprofile"]);?>" method="post" class="form-inline">
-							<div class="row">
-								<div class="col-md-6">
-								  <div class="form-group">
-								    <label for="n">Name</label>
-								    <div class="input-group">
-								    	<div class="input-group-addon">
-								    		<i class="fa fa-user"></i>
-								    	</div>
-								    	<input type="text" class="form-control" id="n" placeholder="Name..." name="full_name" value="<?php echo $user->full_name;?>">
-								    </div>
-								  </div>								
-								</div>
-
-								<div class="col-md-6">
-								  <div class="form-group">
-								    <label for="e">Email</label>
-								    <div class="input-group">
-								    	<div class="input-group-addon">
-								    		<i class="fa fa-envelope"></i>
-								    	</div>
-								    	<input type="email" class="form-control" id="e" name="email" value="<?php echo $user->email;?>" placeholder="Mail Here...">
-								    </div>
-								  </div>									
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-md-6">
-								  <div class="form-group">
-								    <label for="c">Contact Number</label>
-								    <div class="input-group">
-								    	<div class="input-group-addon">
-								    		<i class="fa fa-phone"></i>
-								    	</div>
-								    	<input type="text" class="form-control" id="c" name="phone" value="<?php echo $user->phone;?>" placeholder="Phone Number...">
-								    </div>
-								  </div>								
-								</div>
-
-								<div class="col-md-6">
-								  <div class="form-group">
-								    <label for="ad">Address</label>
-								    <div class="input-group">
-								    	<div class="input-group-addon">
-								    		<i class="fa fa-address-book"></i>
-								    	</div>
-								    	<input type="text" class="form-control"id="autocomplete" name="address" type="text" onFocus=geolocate() value="<?php echo $user->address ?>" placeholder="Address Here...">
-								    </div>
-								  </div>									
-								</div>
-							</div>
-                                                    <input  type="hidden" id="lat" name="latitude" value="<?php echo $user->latitude ?>"/>
-<input  type="hidden" id="long" name="longitude" value="<?php echo $user->longitude ?>"/>
-
-														
-							
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<button class="form-control btn text-uppercase" type="submit"> Save</button>
-									</div>
-								</div>
-							</div>
-
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<div class="clearfix"></div>
-<script>     
+  <script>     
       var placeSearch, autocomplete;   
 
       function initAutocomplete() {
@@ -106,13 +82,13 @@
             {types: ['geocode']});   
 
              google.maps.event.addListener(autocomplete, 'place_changed', function() {
-		      var place = autocomplete.getPlace();
-		      var lat = place.geometry.location.lat();
-		      var lng = place.geometry.location.lng();
-		      $('#lat').val(lat);
+          var place = autocomplete.getPlace();
+          var lat = place.geometry.location.lat();
+          var lng = place.geometry.location.lng();
+          $('#lat').val(lat);
                       $('#long').val(lng);
-		    
-		    });     
+        
+        });     
       }
 
      
@@ -136,4 +112,3 @@
 
  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ9hl89w8uiMND1-cnmkTVnqGh37TDvvk&libraries=places&callback=initAutocomplete"
         async defer></script>
- 
