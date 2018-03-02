@@ -76,7 +76,7 @@
                   </div>
                   <div class="row">
                     <div class="col-sm-8 ml-auto">
-                      <button class="btn btn-primary">Save Changes</button>
+                      <button class="btn btn-primary" type="submit">Save Changes</button>
                     </div>
                   </div>
                 </form>
