@@ -45,7 +45,6 @@ class ServicesController extends AppController {
      public function addservice() {
         $this->viewBuilder()->layout('default');
         $this->loadModel('Users');
-        $this->loadModel('ServiceTypes'); 
         $user = $this->Users->get($this->Auth->user('id'));
         $id=$this->Auth->user('id');
         $uid = $this->request->session()->read('Auth.User.id');
@@ -54,7 +53,12 @@ class ServicesController extends AppController {
         //echo $uverify;exit;
         if($uid!='' && isset($uid) && $utype==2 && $uverify== 'Y'){
         $this->loadModel('Services');
-        
+        $this->loadModel('ServiceTypes'); 
+        $this->loadModel('Tags'); 
+        $this->loadModel('Models'); 
+        $this->loadModel('Features'); 
+        $this->loadModel('ServiceProviderModels');
+        $this->loadModel('ServiceProviderFeatures');
         $service = $this->Services->newEntity();
         
         if ($this->request->is('post')) {
@@ -67,114 +71,16 @@ class ServicesController extends AppController {
             if($this->request->data['service_name'] == ""){
                 $this->Flash->error(__('Service Name can not be null. Please, try again.')); $flag = false;
             }
-                      
-            if($flag){
-                  $this->request->data['provider_id']=$id;
-                  $this->request->data['is_active']= 1;
-                  $this->request->data['step']= 1;
-                
-                $service = $this->Services->patchEntity($service, $this->request->data);
-                if ($rs=$this->Services->save($service)) {
-                   
-                    //$this->Flash->success('Service added successfully.', ['key' => 'success']);
-                    
-                    $this->redirect(['action' => 'addservicestep2/'.$rs->id]);
-                }
-            }
-        }
-       
-        $stname=$this->ServiceTypes->find('all', array('conditions' => array('ServiceTypes.status' =>1)));
-        //pr($stname);exit;
-        $this->set(compact('service','stname'));
-        $this->set('_serialize', ['service']);
-        }else{
-             $this->Flash->error('You have no permission to access this.');
-            return $this->redirect(['controller'=>'Users','action'=>'index']);
-        }
-    }
-    
-    
-    
-    public function addservicestep2($eid=null) {
-        $this->viewBuilder()->layout('default');
-        $this->loadModel('Users');
-        $this->loadModel('Events'); 
-        $this->loadModel('Amenities'); 
-        $user = $this->Users->get($this->Auth->user('id'));
-        $id=$this->Auth->user('id');
-        $uid = $this->request->session()->read('Auth.User.id');
-        $utype = $this->request->session()->read('Auth.User.utype');
-        $uverify = $user->check_verified;
-        //echo $uverify;exit;
-        if($uid!='' && isset($uid) && $utype==2 && $uverify== 'Y'){
-        $this->loadModel('Services');
-        
-        $service = $this->Services->get($eid);
-        
-        if ($this->request->is('post')) {
-
-            $flag = true;
-           
-            $tableRegObj = TableRegistry::get('Services');
-           
-           
-                      
-            if($flag){
-                  //$this->request->data['provider_id']=$id;
-                  //$this->request->data['is_active']= 1;
-                
-                  $this->request->data['event_id']=implode(',',$this->request->data['event_id']);
-                  $this->request->data['amenity_id']=implode(',',$this->request->data['amenity_id']);
-                  $this->request->data['step']= 2;
-                
-                $service = $this->Services->patchEntity($service, $this->request->data);
-                if ($this->Services->save($service)) {
-                   
-                    //$this->Flash->success('Service added successfully.', ['key' => 'success']);
-                    
-                    $this->redirect(['action' => 'addservicestep3/'.$eid]);
-                }
-            }
-        }
-       
-        $eventname=$this->Events->find()->where(['Events.status'=>1])->toArray();
-        $amenityname=$this->Amenities->find()->where(['Amenities.status'=>1])->toArray();
-        //pr($stname);exit;
-        $this->set(compact('eventname','amenityname','service'));
-        $this->set('_serialize', ['service']);
-        }else{
-             $this->Flash->error('You have no permission to access this.');
-            return $this->redirect(['controller'=>'Users','action'=>'index']);
-        }
-    }
-    
-    
-    
-     public function addservicestep3($eid=null) {
-        $this->viewBuilder()->layout('default');
-        $this->loadModel('Users');
-        $this->loadModel('Events'); 
-        $this->loadModel('Amenities'); 
-        $user = $this->Users->get($this->Auth->user('id'));
-        $id=$this->Auth->user('id');
-        $uid = $this->request->session()->read('Auth.User.id');
-        $utype = $this->request->session()->read('Auth.User.utype');
-        $uverify = $user->check_verified;
-        //echo $uverify;exit;
-        if($uid!='' && isset($uid) && $utype==2 && $uverify== 'Y'){
-        $this->loadModel('Services');
-        
-        $service = $this->Services->get($eid);
-        
-        if ($this->request->is('post')) {
-
-            $flag = true;
-           
-            $tableRegObj = TableRegistry::get('Services');
-           
             
-                
-                 $arr_ext = array('jpg', 'jpeg', 'gif', 'png');
+           /* if($flag){
+                if($this->request->data['address'] == ""){
+                    $this->Flash->error(__('Address can not be null. Please, try again.')); $flag = false;
+                }            
+            }            
+            
+            
+            
+             $arr_ext = array('jpg', 'jpeg', 'gif', 'png');
             if (!empty($this->request->data['image']['name'])) {
                 $file = $this->request->data['image']; //put the data into a var for easy use
                 $ext = substr(strtolower(strrchr($file['name'], '.')), 1); //get the extension
@@ -196,24 +102,26 @@ class ServicesController extends AppController {
                 }
             } else {
                 $this->request->data['image'] = $service->image;
-            }
-                
-                
-                  
-                  $this->request->data['step']= 3;
-                
+            }*/
+             
+                        
+            if($flag){
+                  $this->request->data['provider_id']=$id;
+                  $this->request->data['is_active']= 1;
+                // Saving User details after validation
                 $service = $this->Services->patchEntity($service, $this->request->data);
-                if ($this->Services->save($service)) {
+                if ($rs=$this->Services->save($service)) {
                    
                     //$this->Flash->success('Service added successfully.', ['key' => 'success']);
                     
-                    $this->redirect(['action' => 'listservice/']);
+                    $this->redirect(['action' => 'listservice']);
                 }
-            
+            }
         }
        
-       
-        $this->set(compact('service'));
+        
+        //pr($stname);exit;
+        $this->set(compact('service','stname','sfname','stagname','user'));
         $this->set('_serialize', ['service']);
         }else{
              $this->Flash->error('You have no permission to access this.');
@@ -221,11 +129,8 @@ class ServicesController extends AppController {
         }
     }
     
-    
-    
-    
     public function listservice() {
-        $this->viewBuilder()->layout('default');
+        $this->viewBuilder()->layout('other_layout');
         $this->loadModel('Services');
         $this->loadModel('Users');
         $user = $this->Users->get($this->Auth->user('id'));

@@ -13,7 +13,8 @@
     <?php echo  $this->Html->css('bootstrap.min.css') ?>
     <?php echo  $this->Html->css('style.css') ?>
     <?php echo  $this->Html->css('jquery.bxslider.css') ?>
-    <?php echo $this->Html->script('jquery-1.10.1.min.js') ?>
+    <?php //echo $this->Html->script('jquery-1.10.1.min.js') ?>
+    
     <?php echo $this->Html->script('jquery.validate.js') ?>
     
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> 
