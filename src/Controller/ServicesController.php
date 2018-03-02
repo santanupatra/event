@@ -43,7 +43,7 @@ class ServicesController extends AppController {
     
    
      public function addservice() {
-        $this->viewBuilder()->layout('other_layout');
+        $this->viewBuilder()->layout('default');
         $this->loadModel('Users');
         $user = $this->Users->get($this->Auth->user('id'));
         $id=$this->Auth->user('id');
