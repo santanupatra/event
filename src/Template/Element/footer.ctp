@@ -34,7 +34,7 @@
 								<p class="contact">Customer support<br>+1 888-123-4567<br>hello@rentaroom.com</p>
 							</li>
 							<li class="social-links">
-								<h5>Available on</h5>
+                                                            <h5>Available on</h5>
 								<p><img src="<?php echo $this->request->webroot;?>images/available.png" alt="" class="img-fluid"></p>
 								<h5>We accept: <span><img src="<?php echo $this->request->webroot;?>images/cards.png" alt=""></span></h5>
 							</li>
