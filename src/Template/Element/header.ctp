@@ -153,9 +153,9 @@
 <nav class="navbar navbar-expand-lg navbar-toggleable-md fixed-top navbar-light bg-light ">
     <div class="container">
       <?php 
-          if ($this->request->params['controller'] == 'Users' && $this->request->params['action'] != 'index'){
+          if ($this->request->params['action'] != 'index'){
        ?>
-        <a class="navbar-brand" href="#"><img src="<?php echo $this->request->webroot;?>images/logo.png" alt="" /></a>
+        <a class="navbar-brand" href="<?php echo $this->Url->build(["controller" => "Users","action" => "index"]);?>"><img src="<?php echo $this->request->webroot;?>images/logo.png" alt="" /></a>
       <?php
         }
        ?>

@@ -5,15 +5,18 @@
 					
 					
 					<div class="home-search rounded">
+						<form method="post" action="<?php echo $this->Url->build(["controller" => "services","action" => "result"]);?>">
+						<input type="hidden" name="lat" id="lat" value="">
+						<input type="hidden" name="long" id="long" value="">
 						<div class="input-group">
-							<input type="text" class="form-control venue-location" placeholder="Venue location">
+							<input type="text" class="form-control venue-location" placeholder="Venue location" name="location" id="autocomplete">
 							<span class="icon"><i class="ion-location"></i></span>
-							<input type="text" class="form-control venue-name" placeholder="Venue name...">
+							<input type="text" class="form-control venue-name" placeholder="Venue name..." name="title">
 						<div class="input-group-prepend">
-							<button class="btn btn-primary" type="button"><i class="ion-search"></i> Search</button>
+							<button class="btn btn-primary" type="submit"><i class="ion-search"></i> Search</button>
+						</div>						
 						</div>
-						
-						</div>
+						</form>
 					</div>
 					<p class="mt-4 mb-0"><img src="<?php echo $this->request->webroot;?>images/banner-logo.png" alt="" class="img-fluid"></p>
 					<h1 class="text-uppercase mt-4">find your Nearest venue</h1>
@@ -232,3 +235,44 @@
 	    	</div>
     	</div>
     </section>
+   <script>     
+      var placeSearch, autocomplete;   
+
+      function initAutocomplete() {
+        // Create the autocomplete object, restricting the search to geographical
+        // location types.
+        autocomplete = new google.maps.places.Autocomplete(
+            /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),
+            {types: ['geocode']});   
+
+             google.maps.event.addListener(autocomplete, 'place_changed', function() {
+          var place = autocomplete.getPlace();
+          var lat = place.geometry.location.lat();
+          var lng = place.geometry.location.lng();
+          $('#lat').val(lat);
+          $('#long').val(lng);
+        
+        });     
+      }
+
+     
+      function geolocate() { 
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) { 
+            var geolocation = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+            var circle = new google.maps.Circle({
+              center: geolocation,
+              radius: position.coords.accuracy
+            });
+            
+            autocomplete.setBounds(circle.getBounds());
+          });
+        }
+      }
+    </script>
+
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQ9hl89w8uiMND1-cnmkTVnqGh37TDvvk&libraries=places&callback=initAutocomplete"
+        async defer></script>

@@ -13,7 +13,7 @@
     <?php echo  $this->Html->css('bootstrap.min.css') ?>
     <?php echo  $this->Html->css('style.css') ?>
     <?php echo  $this->Html->css('jquery.bxslider.css') ?>
-    <?php //echo $this->Html->script('jquery-1.10.1.min.js') ?>
+    <?php echo $this->Html->script('jquery-1.10.1.min.js') ?>
     
     <?php echo $this->Html->script('jquery.validate.js') ?>
     
