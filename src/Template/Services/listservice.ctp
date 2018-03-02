@@ -1,11 +1,10 @@
-<?php echo $this->element('profile_head');?>
-    <section class="pt-5 pb-5">
-        <div class="container">
-            <div class="row">
+    <section class="user-dashboard">
+		<div class="container">
+			<div class="row">
                 <?php echo ($this->element('side_menu'));?>
-                <div class="col-lg-9 col-12">
-                    <div class="right-side p-3">
-                        <!--<h2 class="text-pink">Service List</h2>-->
+                <div class="col-lg-9 col-md-8">
+					<div class="edit-pro p-3 p-lg-4">
+						<h5 class="common-title mb-3 pb-2">Venues List</h5>
                         
                         <?php if($service!=''){foreach ($service as $dt){ ?>
                         <div class="row mt-3 pb-3 product-list-row">
@@ -24,11 +23,22 @@
                                 <p class="text-grey"><?php  echo substr($dt['description'],0,100).'...';?></p>
                                 
              
-            
                             </div>
                             <div class="col-lg-4 col-md-3 col-12 text-md-right">
+                                
+                                <?php if($dt['step']==1){?>
 
+                                <a href="<?php echo $this->Url->build(["controller" => "Services","action" => "addservicestep2",$dt['id']]);?>" class="btn btn-sm btn-secondary">Edit</a>
+                                
+                                <?php }elseif($dt['step']==2) {?>
+                                
+                                <a href="<?php echo $this->Url->build(["controller" => "Services","action" => "addservicestep3",$dt['id']]);?>" class="btn btn-sm btn-secondary">Edit</a>
+                                <?php }else{ ?>
+                                
                                 <a href="<?php echo $this->Url->build(["controller" => "Services","action" => "editservice",$dt['id']]);?>" class="btn btn-sm btn-secondary">Edit</a>
+                                <?php } ?>
+                                
+                                
                                 <a href="<?php echo $this->Url->build(["controller" => "Services","action" => "servicedelete",$dt['id']]);?>" class="btn btn-sm btn-danger">Delete</a>
                             </div>
                         </div>
