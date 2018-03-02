@@ -6,7 +6,7 @@
 		    			<ul class="d-flex list-unstyled">
 							<li>
 								<h5>About Us</h5>
-								<a href="" class="footer-links">About us</a>
+								<a href="<?php echo $this->Url->build(["controller" => "contents", "about-us"]); ?>" class="footer-links">About us</a>
 								<a href="" class="footer-links">Partners</a>
 								<a href="" class="footer-links">Work with us</a>
 								<a href="" class="footer-links">Internships</a>
@@ -16,11 +16,11 @@
 							<li>
 								<h5>Tenants</h5>
 								<a href="" class="footer-links">How it works</a>
-								<a href="" class="footer-links">Blog</a>
+								<a href="<?php echo $this->Url->build('/blog'); ?>" class="footer-links">Blog</a>
 								<a href="" class="footer-links">Promotion</a>
-								<a href="" class="footer-links">Terms and conditions</a>
+								<a href="<?php echo $this->Url->build(["controller" => "contents", "terms-and-condition"]); ?>" class="footer-links">Terms and conditions</a>
 								<a href="" class="footer-links">Cookies policy</a>
-								<a href="" class="footer-links">Privacy policies</a>
+								<a href="<?php echo $this->Url->build(["controller" => "contents", "privacy-policy"]); ?>" class="footer-links">Privacy policies</a>
 							</li>
 							<li>
 								<h5>Venue Seeker</h5>

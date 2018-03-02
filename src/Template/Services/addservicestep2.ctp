@@ -24,12 +24,12 @@
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">Venue Address:</label>
 										<div class="col-sm-8">
-											<input type="text" class="form-control" id="autocomplete" name="address" onFocus="geolocate()">
+                                                                                    <input type="text" class="form-control" id="autocomplete" name="address" value="<?php echo $service->address; ?>" onFocus="geolocate()" required="">
 										</div>
 									</div>
                                                                         
-                              <input  type="hidden" id="lat" name="latitude" />
-                              <input  type="hidden" id="long" name="longitude" /> 
+                              <input  type="hidden" value="<?php echo $service->latitude; ?>" id="lat" name="latitude" />
+                              <input  type="hidden" value="<?php echo $service->longitude; ?>" id="long" name="longitude" /> 
                                                                         
                                                                         
 									<div class="form-group row">
@@ -45,7 +45,7 @@
 												<div class="input-group-prepend">
 													<span class="input-group-text" id="basic-addon1">$</span>
 												</div>
-												<input type="text" class="form-control" name="price">
+                                                                                            <input type="text" class="form-control" name="price" value="<?php echo $service->price; ?>" required="">
 											</div>
 										</div>
 									</div>
@@ -58,7 +58,7 @@
 												<div class="input-group-prepend">
 													<span class="input-group-text" id="basic-addon1"><i class="ion-clock"></i></span>
 												</div>
-												<input type="text" class="form-control" name="start_time" id="timepicker">
+												<input type="text" class="form-control" name="start_time" value="<?php echo $service->start_time; ?>" id="timepicker">
 											</div>
 										</div>
 									</div>
@@ -69,7 +69,7 @@
 												<div class="input-group-prepend">
 													<span class="input-group-text" id="basic-addon1"><i class="ion-clock"></i></span>
 												</div>
-												<input type="text" class="form-control" name="end_time" id="timepicker1">
+												<input type="text" value="<?php echo $service->end_time; ?>" class="form-control" name="end_time" id="timepicker1">
 											</div>
 										</div>
 									</div>
@@ -82,7 +82,7 @@
 												<div class="input-group-prepend">
 													<span class="input-group-text" id="basic-addon1">Max occupancy</span>
 												</div>
-												<input type="text" class="form-control" name="max_occupancy">
+												<input type="text" class="form-control" name="max_occupancy" value="<?php echo $service->max_occupancy; ?>">
 											</div>
 										</div>
 									</div>
@@ -93,11 +93,11 @@
 												<div class="input-group-prepend">
 													<span class="input-group-text" id="basic-addon1">Square Footage</span>
 												</div>
-												<input type="text" class="form-control" name="square_footage">
+                                                                                            <input type="text" class="form-control" name="square_footage" value="<?php echo $service->square_footage; ?>">
 											</div>
 										</div>
 									</div>
-									
+									<?php $events=explode(',',$service->event_id)?>
 									<h5 class="mt-4 mb-4">Venue Features</h5>
 									<h6>Type of event</h6>
 									<ul class="list-unstyled d-flex event-type-list flex-wrap">
@@ -106,30 +106,31 @@
                                                                             
                                                                             <li>
 											<div class="custom-control custom-checkbox">
-												<input type="checkbox" class="custom-control-input" id="customCheck<?php echo $dt->id; ?>" name="event_id[]" value="<?php echo $dt->id; ?>">
+												<input type="checkbox" class="custom-control-input" id="customCheck<?php echo $dt->id; ?>" <?php if(in_array($dt->id,$events)){echo 'checked';}?> name="event_id[]" value="<?php echo $dt->id; ?>">
 												<label class="custom-control-label" for="customCheck<?php echo $dt->id; ?>"><?php echo $dt->event_name; ?></label>
 											</div>
 										</li>
 										
                                             <?php } ?>
 										
-										
-										
 									</ul>
+                                                                        
+                                                                        
+                                                                        
+                                                                        
+                                                                        <?php $amities=explode(',',$service->amenity_id)?>
 									<h6>Amenities</h6>
 									<ul class="list-unstyled d-flex event-type-list flex-wrap">
 									<?php foreach($amenityname as $dt)
                                             { ?>	
                                                                             <li>
 											<div class="custom-control custom-checkbox">
-												<input type="checkbox" class="custom-control-input" id="customCheckami<?php echo $dt->id; ?>" name="amenity_id[]" value="<?php echo $dt->id; ?>">
+												<input type="checkbox" class="custom-control-input" id="customCheckami<?php echo $dt->id; ?>" <?php if(in_array($dt->id,$amities)){echo 'checked';}?> name="amenity_id[]" value="<?php echo $dt->id; ?>">
 												<label class="custom-control-label" for="customCheckami<?php echo $dt->id; ?>"><?php echo $dt->amenities_name; ?></label>
 											</div>
 										</li>
 										
                                             <?php } ?>
-										
-										
 										
 									</ul>
 									
@@ -148,7 +149,7 @@
 			</div>
 		</div>
 	</section>
- 
+ <?php echo  $this->Html->css('mdtimepicker.css') ?>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <?php echo $this->Html->script('mdtimepicker.js') ?>
 

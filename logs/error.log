@@ -1,0 +1,2138 @@
+2018-03-02 11:12:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:12:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:13:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jimja could not be found.
+Exception Attributes: array (
+  'class' => 'Jimja',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/jimja/image/stars.png
+Referer URL: http://localhost/event/services/editservice/20
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:14:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:14:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:15:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:15:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:15:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:15:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jimja could not be found.
+Exception Attributes: array (
+  'class' => 'Jimja',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/jimja/image/stars.png
+Referer URL: http://localhost/event/services/editservice/20
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:17:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:17:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:17:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jimja could not be found.
+Exception Attributes: array (
+  'class' => 'Jimja',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/jimja/image/stars.png
+Referer URL: http://localhost/event/services/editservice/20
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:17:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:17:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:17:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:17:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:17:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:18:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:19:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:19:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:20:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:21:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:21:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:21:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:30:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/css/bootstrap-slider.css
+Referer URL: http://localhost/event/admin/users/listserviceprovider_verified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listserviceprovider_verified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listserviceprovider_verified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/css/bootstrap-slider.css
+Referer URL: http://localhost/event/admin/users/listservice/50
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listservice/50
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listservice/50
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/addservice/50
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/css/bootstrap-slider.css
+Referer URL: http://localhost/event/admin/users/addservice/50
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:35:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:35:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/addservice/50
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:38:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:39:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:39:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:40:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:41:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:42:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:42:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:43:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Jimja could not be found.
+Exception Attributes: array (
+  'class' => 'Jimja',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/jimja/image/stars.png
+Referer URL: http://localhost/event/services/editservice/20
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 11:47:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:47:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:47:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:48:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:54:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:54:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:54:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:54:36 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "services" with primary key [NULL]
+Request URL: /event/services/addservicestep2
+Referer URL: http://localhost/event/services/editservice/20
+Stack Trace:
+#0 /var/www/html/event/src/Controller/ServicesController.php(112): Cake\ORM\Table->get(NULL)
+#1 [internal function]: App\Controller\ServicesController->addservicestep2()
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Controller/Controller.php(435): call_user_func_array(Array, Array)
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ServicesController))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2018-03-02 11:54:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:55:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:56:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:56:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:56:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:56:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:57:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 11:58:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:01:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:01:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:02:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:02:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:02:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:02:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:02:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:02:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:03:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:03:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:03:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:03:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:03:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:03:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Image could not be found.
+Exception Attributes: array (
+  'class' => 'Image',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/image/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:04:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:04:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:04:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:04:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Image could not be found.
+Exception Attributes: array (
+  'class' => 'Image',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/image/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:04:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:04:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Image could not be found.
+Exception Attributes: array (
+  'class' => 'Image',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/image/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:04:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:04:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:04:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Image could not be found.
+Exception Attributes: array (
+  'class' => 'Image',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/image/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:04:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:04:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Image could not be found.
+Exception Attributes: array (
+  'class' => 'Image',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/image/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:05:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:05:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:05:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Service_img could not be found.
+Exception Attributes: array (
+  'class' => 'Service_img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/service_img/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:05:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:05:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Service_img could not be found.
+Exception Attributes: array (
+  'class' => 'Service_img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/service_img/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:09:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:09:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:09:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Service_img could not be found.
+Exception Attributes: array (
+  'class' => 'Service_img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/service_img/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:09:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:09:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Service_img could not be found.
+Exception Attributes: array (
+  'class' => 'Service_img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/service_img/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:10:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:11:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:11:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:11:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:11:35 Error: Fatal Error (1): Call to a member function generateThumb() on boolean in [/var/www/html/event/src/Controller/ServicesController.php, line 191]
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:11:35 Error: [Cake\Error\FatalErrorException] Call to a member function generateThumb() on boolean
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/var/www/html/e...', 191)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:15:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:15:20 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:15:20 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:15:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:15:24 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:15:24 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:16:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:16:57 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:16:57 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Referer URL: http://localhost/event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:17:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:17:02 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:17:02 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:17:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:17:04 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:17:04 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:17:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:17:06 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:17:06 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:17:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:17:55 Error: Fatal Error (1): Class 'Components' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:17:55 Error: [Cake\Error\FatalErrorException] Class 'Components' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:18:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:18:05 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:18:05 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:25 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:25 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:26 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:26 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:26 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:26 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:27 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:27 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:27 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:27 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:27 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:27 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:27 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:27 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:28 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:28 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:22:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:22:28 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:22:28 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:06 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:06 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:06 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:06 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:07 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:07 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:07 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:07 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:07 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:07 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:07 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:07 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:08 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:08 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:08 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:08 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:08 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:08 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:08 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:08 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:35 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:35 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:36 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:36 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:36 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:36 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:36 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:36 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:37 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:37 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:37 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:37 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:37 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:37 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:24:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:24:37 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:24:37 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:26:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:26:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:27:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:27:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:27:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:27:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:27:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:27:33 Error: Fatal Error (1): Class 'App\Controller\Component\AppController' not found in [/var/www/html/event/src/Controller/ServicesController.php, line 36]
+Request URL: /event/services/addservicestep3/21
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:27:33 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Component\AppController' not found
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/e...', 36)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:28:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:28:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:29:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservicestep3/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:29:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservicestep2/21
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:29:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:29:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservice
+Referer URL: http://localhost/event/services/addservicestep2/21
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:29:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservice
+Referer URL: http://localhost/event/users/servicedashboard
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:29:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:29:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:29:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:30:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:30:08 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:30:08 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:30:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:30:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:30:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:30:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Services could not be found.
+Exception Attributes: array (
+  'class' => 'Services',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:30:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:30:44 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:30:44 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:31:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:31:48 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:31:48 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:31:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:31:49 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:31:49 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:31:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:31:49 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:31:49 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:31:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:31:49 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:31:49 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:31:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:31:49 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:31:49 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:32:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:32:29 Error: Fatal Error (1): Class 'App\Controller\Component\AppController' not found in [/var/www/html/event/src/Controller/ServicesController.php, line 36]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:32:29 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Component\AppController' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/var/www/html/e...', 36)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:33:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:33:38 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:33:38 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:34:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:34:41 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:34:41 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:34:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:34:42 Error: Fatal Error (1): Class 'Component' not found in [/var/www/html/event/src/Controller/Component/ImagethumbComponent.php, line 2]
+Request URL: /event/services/addservice
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2018-03-02 12:34:42 Error: [Cake\Error\FatalErrorException] Class 'Component' not found
+Request URL: /event/services/addservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Componen...', '/var/www/html/e...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-02 12:35:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Service_img could not be found.
+Exception Attributes: array (
+  'class' => 'Service_img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/service_img/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:35:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Service_img could not be found.
+Exception Attributes: array (
+  'class' => 'Service_img',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/service_img/default.png
+Referer URL: http://localhost/event/services/listservice
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:35:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listserviceprovider_nonverified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/css/bootstrap-slider.css
+Referer URL: http://localhost/event/admin/users/listserviceprovider_nonverified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:35:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listserviceprovider_nonverified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:35:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/css/bootstrap-slider.css
+Referer URL: http://localhost/event/admin/users/listserviceprovider_verified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:35:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listserviceprovider_verified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:35:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:35:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /event/js/bootstrap-slider.js
+Referer URL: http://localhost/event/admin/users/listserviceprovider_verified
+Stack Trace:
+#0 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(63): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php(49): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php(144): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#4 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(426): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventManager.php(391): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#6 /var/www/html/event/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#7 /var/www/html/event/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(81): Cake\Http\ActionDispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#8 /var/www/html/event/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(60): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#9 /var/www/html/event/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2018-03-02 12:37:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:37:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:37:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:37:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:38:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:39:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:40:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:54:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:55:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:55:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:59:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 12:59:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:00:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:00:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:00:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:00:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:00:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:01:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:03:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:03:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:03:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:03:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:03:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:03:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:03:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:12:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:12:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:12:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:12:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:13:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:13:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:13:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:14:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:14:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:14:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:14:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:14:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:14:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:15:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:16:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:17:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:17:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:18:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:21:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:23:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:23:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:23:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:24:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:25:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:25:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:25:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:25:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:25:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:25:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:26:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2018-03-02 13:27:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.

@@ -22,8 +22,26 @@
       
       <!--menus-->
       
+      <?php  if($user_details['utype'] == 2){ ?>
     <ul class="sidebar-menu list-unstyled mb-0">
 
+      <li <?php if ($this->request->params['controller'] == 'Users' && $this->request->params['action'] == 'servicedashboard'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Users","action" => "servicedashboard"]);?>"><span><i class="ion-home"></i></span> Home</a></li>
+      
+      <li <?php if ($this->request->params['controller'] == 'Users' && $this->request->params['action'] == 'serviceeditprofile'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Users","action" => "serviceeditprofile"]);?>"><span><i class="ion-ios-person"></i></span> Profile</a></li>
+      
+      
+      <li <?php if ($this->request->params['controller'] == 'Users' && $this->request->params['action'] == 'changepass'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Users","action" => "changepass"]);?>"><span><i class="ion-ios-person"></i></span> Change Password</a></li>
+      
+      <li <?php if ($this->request->params['controller'] == 'Services' && $this->request->params['action'] == 'addservice'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Services","action" => "addservice"]);?>"><span><i class="ion-plus"></i></span> Add Venue</a></li>
+      
+      
+      <li <?php if ($this->request->params['controller'] == 'Services' && $this->request->params['action'] == 'listservice'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Services","action" => "listservice"]);?>" ><i class="ion-star"></i> Venue List</a></li>
+      
+      
+      <li><a href=""><span><i class="ion-heart"></i></span> Wishlist</a></li>
+      <li><a href=""><span><i class="ion-ios-email"></i></span> Messages</a></li>
+
+     
         <?php 
          if($user_details['utype'] == 2){ ?>
            <li <?php if ($this->request->params['controller'] == 'Users' && $this->request->params['action'] == 'servicedashboard'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Users","action" => "servicedashboard"]);?>"><span><i class="ion-home"></i></span> Home</a></li>
@@ -42,10 +60,7 @@
         <li><a href=""><span><i class="ion-ios-email"></i></span> Messages</a></li>
         <?php 
          if($user_details['utype'] == 2){ ?>
-        <li <?php if ($this->request->params['controller'] == 'Services' && $this->request->params['action'] == 'addservice'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Services","action" => "addservice"]);?>"><span><i class="ion-plus"></i></span> Add Venue</a></li>
-      
-      
-      <li <?php if ($this->request->params['controller'] == 'Services' && $this->request->params['action'] == 'listservice'){?> class="active" <?php } ?>><a href="<?php echo $this->Url->build(["controller" => "Services","action" => "listservice"]);?>" ><i class="ion-star"></i> Venue List</a></li>
+       
       <li><a href=""><span><i class="ion-android-calendar"></i></span> Bookings</a></li>
       <li><a href=""><span><i class="ion-star"></i></span> Reviews</a></li>
       <li><a href=""><span><i class="ion-ios-pricetag"></i></span> Subscriptions</a></li>
@@ -55,6 +70,6 @@
       <li><a href=""><span><i class="ion-log-out"></i></span> Log Out</a></li>
     </ul>
       
-     
+      <?php } ?>
   </div>
 </div>

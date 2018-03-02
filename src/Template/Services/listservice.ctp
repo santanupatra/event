@@ -7,13 +7,13 @@
 						<h5 class="common-title mb-3 pb-2">Venues List</h5>
                         
                         <?php if($service!=''){foreach ($service as $dt){ ?>
-                        <div class="row mt-3 pb-3 product-list-row">
-                            <div class="col-lg-2 col-md-3 col-4">
+                        <div class="row product-list-row">
+                            <div class="col-lg-3 col-md-3 col-4">
 
                                 <?php if(isset($dt->image)) { ?>
                                 <img src="<?php echo $this->Url->build('/service_img/'.$dt->image); ?>" alt="" class="img-fluid">
                                 <?php }else{ ?>
-                                 <img src="<?php echo $this->Url->build('/image/default.png'); ?>" alt="" class="img-fluid">
+                                 <img src="<?php echo $this->Url->build('/service_img/default.png'); ?>" alt="" class="img-fluid">
                                 <?php } ?>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
@@ -24,7 +24,7 @@
                                 
              
                             </div>
-                            <div class="col-lg-4 col-md-3 col-12 text-md-right">
+                            <div class="col-lg-3 col-md-3 col-12 text-md-right pt-md-5">
                                 
                                 <?php if($dt['step']==1){?>
 
@@ -39,7 +39,7 @@
                                 <?php } ?>
                                 
                                 
-                                <a href="<?php echo $this->Url->build(["controller" => "Services","action" => "servicedelete",$dt['id']]);?>" class="btn btn-sm btn-danger">Delete</a>
+                                <a href="<?php echo $this->Url->build(["controller" => "Services","action" => "servicedelete",$dt['id']]);?>" onclick="return confirm('Are you sure you want to delete?');" class="btn btn-sm btn-danger">Delete</a>
                             </div>
                         </div>
                         <?php } } ?>

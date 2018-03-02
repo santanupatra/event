@@ -20,9 +20,18 @@
 									<h5 class="mt-4 mb-4">Insert Photo</h5>
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">Add File:</label>
-										<div class="col-sm-8">
-											<input type="file" class="form-control" name="image">
-										</div>
+										<div class="fileupload fileupload-new" data-provides="fileupload">
+                                        
+                                      <div> 
+                                          <input type="file" class="form-control" id="image" name="image"/>
+                                          </div>
+                                                                                    <div class="fileupload-preview thumbnail" style="width: 200px; height: 150px;">
+                                            <?php $filePath = WWW_ROOT . 'service_img' .DS. $service->image; ?>
+                                            <?php if ($service->image != "" && file_exists($filePath)) { ?>
+                                                <img src="<?php echo $this->Url->build('/service_img/'.$service->image); ?>" width="150px" height="150px" />
+                                            <?php } ?>
+                                        </div>
+                                    </div>
 									</div>
 									<div class="row">
 										<div class="col-sm-12 text-right mt-3">

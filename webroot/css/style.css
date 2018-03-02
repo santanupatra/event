@@ -448,6 +448,15 @@ ul.searchlist li h4{font-size:16px; padding-right: 16px}
 .posted-extra-links li a{color:#777}
 .posted-extra-links li a:hover{color:#000; text-decoration: none}
 .posted-extra-links li a i{font-size:16px; margin-right: 3px}
+.product-list-row {
+    background: #f1f1f1;
+    padding: 19px 0;
+    border-bottom: 3px solid #d8ad57;
+    margin-bottom: 30px;
+    box-shadow: 0px 0 30px 3px #dddddd;
+    border-radius: 0;
+}
+
 
 /************* Responsive Style ***********/
 .message.success {

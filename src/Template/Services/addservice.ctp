@@ -21,13 +21,13 @@
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">Venue Name:</label>
 										<div class="col-sm-8">
-											<input type="text" class="form-control"  name="service_name">
+                                                                                    <input type="text" class="form-control"  name="service_name" required="">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">Venue Type:</label>
 										<div class="col-sm-8">
-                                                                                    <select class="form-control" name='venue_type_id'>
+                                                                                    <select class="form-control" name='venue_type_id' required="">
 
                                                                                         <option value="">--Select Type--</option>
                                                                                         <?php foreach ($stname as $dt) { ?>
@@ -47,25 +47,25 @@
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">First Name:</label>
 										<div class="col-sm-8">
-                                                                                    <input type="text" class="form-control" name="cp_fname">
+                                                                                    <input type="text" class="form-control" name="cp_fname" required="">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">Last Name:</label>
 										<div class="col-sm-8">
-                                                                                    <input type="text" class="form-control" name="cp_lname">
+                                                                                    <input type="text" class="form-control" name="cp_lname" required="">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">Email Address:</label>
 										<div class="col-sm-8">
-                                                                                    <input type="email" class="form-control" name="cp_email">
+                                                                                    <input type="email" class="form-control" name="cp_email" required="">
 										</div>
 									</div>
 									<div class="form-group row">
 										<label for="staticEmail" class="col-sm-4 col-form-label">Phone Number:</label>
 										<div class="col-sm-8">
-                                                                                    <input type="text" class="form-control" name="cp_phone">
+                                                                                    <input type="text" class="form-control" name="cp_phone" required="">
 										</div>
 									</div>
 									<div class="row">
