@@ -152,17 +152,29 @@
  
 <nav class="navbar navbar-expand-lg navbar-toggleable-md fixed-top navbar-light bg-light ">
     <div class="container">
-      <!--<a class="navbar-brand" href="#"><img src="images/home-logo.png" alt="" /></a>-->
+      <?php 
+          if ($this->request->params['controller'] == 'Users' && $this->request->params['action'] != 'index'){
+       ?>
+        <a class="navbar-brand" href="#"><img src="<?php echo $this->request->webroot;?>images/logo.png" alt="" /></a>
+      <?php
+        }
+       ?>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <?php 
+              if ($this->request->params['controller'] == 'Users' && $this->request->params['action'] == 'index'){
+           ?>
            <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="ion-android-phone-portrait"></i> Download App</a>
-          </li>                   
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ion-android-phone-portrait"></i> Download App</a>
+            </li>                   
+          </ul>
+          <?php
+            }
+          ?>
         <ul class="navbar-nav ml-auto right-navbar">
           <li class="nav-item">
             <a class="nav-link" href="<?php echo $this->Url->build(["controller" => "Users","action" => "index"]);?>">Home</a>
