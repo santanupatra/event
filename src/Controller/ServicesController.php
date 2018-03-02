@@ -36,7 +36,7 @@ class ServicesController extends AppController {
 
     public function initialize() {
         parent::initialize();
-        $this->Auth->allow(['index']);
+        $this->Auth->allow(['result']);
      }   
     
     public $uses = array('User','Service');
@@ -375,4 +375,22 @@ class ServicesController extends AppController {
         }
         return $this->redirect(['action' => 'listservice']);
     } 
+
+    public function result(){
+       $this->loadModel('Services'); 
+      
+       $location = $this->request->data['location'];
+       $title = $this->request->data['title'];
+
+        $conditions['service_name'] = $title;
+        $conditions['is_active'] = 1;
+        $conditions['step'] = 3;
+        $this->paginate = [
+            'conditions' => $conditions,
+            'order' => [ 'id' => 'DESC']
+        ];
+        $services = $this->paginate($this->Services);
+        
+         $this->set(compact('services'));
+    }
 }

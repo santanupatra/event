@@ -1,0 +1,26 @@
+2018-03-02 12:20:14 Notice: Notice (8): Undefined index: location in [/var/www/html/5star/src/Controller/ServicesController.php, line 381]
+Request URL: /5star/services/result
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\ServicesController::result() - APP/Controller/ServicesController.php, line 381
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 122
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 96
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
+2018-03-02 12:20:14 Notice: Notice (8): Undefined index: title in [/var/www/html/5star/src/Controller/ServicesController.php, line 382]
+Request URL: /5star/services/result
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+App\Controller\ServicesController::result() - APP/Controller/ServicesController.php, line 382
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 435
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 122
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 96
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 60
+[main] - ROOT/webroot/index.php, line 36
+
+
+
